@@ -19,9 +19,36 @@ This repository contains exercises and practice projects in **Data Science**. It
 - Jupyter Notebook
 - Git and GitHub for version control
 
+### Full-Stack Data Science Project Flow
+
+The project follows a complete Data Science workflow integrated with a Django backend and React Native frontend. The flow is as follows:
+
+```blas
+📱 React Native (Mobile Frontend)
+│
+▼
+🌐 predictions_api/ (Django Endpoints)
+│
+▼
+🤖 models.pkg/ (Machine Learning / AI)
+│
+▼
+🧹 processing/ (Data Cleaning & Feature Engineering)
+│
+▼
+📊 monitoring/ (Logging, Metrics, Model Performance)
+```
+
+**Flow Summary:**
+1. User inputs from the mobile app are sent to the `predictions_api/`.  
+2. The API uses trained models from `models.pkg/` to generate predictions.  
+3. Models are trained on cleaned and processed data from `processing/`.  
+4. Monitoring keeps track of predictions, logs, and model performance over time.  
+
+
 ## How to Use
 1. Clone the repository:
-```bash
+```
 git clone https://github.com/your-username/your-repository.git
 ```
 
